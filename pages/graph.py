@@ -34,7 +34,7 @@ def app():
 
     # Plotting the graph
     fig = px.scatter(df, x='petal length (cm)', y='petal width (cm)', color='class',
-                     color_discrete_map={'setosa': 'blue', 'versicolor': 'green', 'virginica': 'red'})
+                     color_discrete_map={'setosa': 'blue', 'versicolor': 'violet', 'virginica': 'black'})
     
     # Customizing layout
     fig.update_layout(title="Petal Length vs Petal Width",
